@@ -7,9 +7,20 @@ Welcome to my repository of solved problems from various online judges. This col
 The repository is organized by platform, with each folder named after the online judge. Within each platform folder, solutions are further categorized by problem ID or name for easy navigation.
 
 
-├── Beecrowd │ ├── Beginer │ ├── 1001.cpp │ ├── 1002.cpp │ └── ... 
-├── Codeforces │ ├── 123A-SpecialProblem.cpp │ ├── 456B-MathematicsChallenge.cpp │ └── ... ├── LeetCode │ ├── 1-TwoSum.cpp │ ├── 42-TrappingRainWater.cpp │ └── ... └── README.md
-
+├── Beecrowd
+│   ├── Beginner
+│   │   ├── 1001.cpp
+│   │   ├── 1002.cpp
+│   │   └── ...
+├── Codeforces
+│   ├── 123A-SpecialProblem.cpp
+│   ├── 456B-MathematicsChallenge.cpp
+│   └── ...
+├── LeetCode
+│   ├── 1-TwoSum.cpp
+│   ├── 42-TrappingRainWater.cpp
+│   └── ...
+└── README.md
 
 
 ## 📝 Supported Platforms
