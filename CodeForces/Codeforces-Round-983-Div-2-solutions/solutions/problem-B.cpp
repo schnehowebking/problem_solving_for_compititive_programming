@@ -1,30 +1,36 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-void solve() {
-	int n, k;
-	cin >> n >> k;
-	if (n>=3 && (k==1 || k==n)) {
-		cout << -1 << "\n";
-		return;
-	}
-	if (n==1) {
-		cout << 1 << "\n" << 1 << "\n";
-		return;
-	}
-	cout << 3 << "\n";
-	cout << 1 << " ";
-	if (k%2) {
-		cout << k-1 << " " << k+2 << "\n";
-	} else {
-		cout << k << " " << k+1 << "\n";
-	}
+
+void processCase() {
+    int length, position;
+    cin >> length >> position;
+
+    if (length >= 3 && (position == 1 || position == length)) {
+        cout << -1 << "\n";
+        return;
+    }
+    if (length == 1) {
+        cout << 1 << "\n" << 1 << "\n";
+        return;
+    }
+
+    cout << 3 << "\n";
+    cout << 1 << " ";
+    if (position % 2 == 1) {
+        cout << position - 1 << " " << position + 2 << "\n";
+    } else {
+        cout << position << " " << position + 1 << "\n";
+    }
 }
+
 int main() {
-	ios_base::sync_with_stdio(false);
-	int w;
-	cin >> w;
-	while (w--) {
-		solve();
-	}
+    ios::sync_with_stdio(false);
+    int testCount;
+    cin >> testCount;
+
+    while (testCount--) {
+        processCase();
+    }
+
+    return 0;
 }
