@@ -36,7 +36,7 @@ int computeScore(int index, int radius) {
     }
     return score * Points[index];
 }
-
+// changing this code for commit
 void processTestCase() {
     cin >> rows >> cols >> elements;
     for (int i = 1; i <= rows; i++) {
